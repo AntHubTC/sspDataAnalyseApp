@@ -1,0 +1,18 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: ssp-data-analyse
+  #  mvc:
+#    static-path-pattern: /static
+  # 打成jar包必须添加如下配置才能找到页面
+#  thymeleaf:
+#    mode: HTML
+#    cache: false
+#    prefix: classpath:/static
+  devtools:
+    restart:
+      enabled: false # 乱求重启，关闭掉!
